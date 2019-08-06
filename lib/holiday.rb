@@ -110,14 +110,14 @@ holiday_hash.each do |key, value|
     holidays.split.map do |a|
       a.capitalize!
    
- 
+ binding.pry
       holidays = temp_array.join(", ")
       
       holidays.sub(/_(?=[^\/]*$)/," ")
       holidays.prepend('  ')
       holidays << ": "
      
-  binding.pry
+  
  puts season
  puts holidays + supplies
 end 
