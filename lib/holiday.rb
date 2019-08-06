@@ -108,7 +108,7 @@ season = season.to_s.capitalize!
 season = season + ":"
 
  
-binding.pry 
+
  
   value.each do |holiday, supplies|
     supplies = supplies.join(', ')
@@ -133,7 +133,7 @@ binding.pry
       final = holidays.split.map(&:capitalize).join(' ').prepend('  ')
       final << ": "
 
-      puts season
+     
       puts final + supplies
  
     end 
