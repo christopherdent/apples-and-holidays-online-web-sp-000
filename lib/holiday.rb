@@ -122,7 +122,7 @@ holiday_hash.each do |key, value|
   
  puts season
  puts holidays + supplies
-end 
+ 
   
  end 
 end 
