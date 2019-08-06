@@ -125,6 +125,8 @@ holiday_hash.each do |key, value|
       holidays.capitalize
   
   
+  
+  
  puts season
  puts holidays + supplies
  
