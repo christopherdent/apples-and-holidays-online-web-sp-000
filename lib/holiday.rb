@@ -112,13 +112,13 @@ holiday_hash.each do |key, value|
    holidays = holidays.split
    #["christmas"] 
    
-   b
+   
       holidays = holidays.join(", ")
       
       holidays.sub(/_(?=[^\/]*$)/," ")
       holidays.prepend('  ')
       holidays << ": "
-   inding.pry
+   binding.pry
    
   
  puts season
