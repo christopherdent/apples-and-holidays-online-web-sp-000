@@ -121,7 +121,7 @@ holiday_hash.each do |key, value|
       
       
       
-      holidays << ": "
+   
       
   final = holidays.split.map(&:capitalize).join(' ').prepend('  ')
   
