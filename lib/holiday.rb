@@ -104,7 +104,9 @@ holiday_hash.each do |key, value|
 season = key
 
  
-season= season.to_s.capitalize!
+season = season.to_s.capitalize!
+
+
  
 binding.pry 
  
