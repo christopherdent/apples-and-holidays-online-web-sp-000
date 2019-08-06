@@ -115,7 +115,7 @@ holiday_hash.each do |key, value|
    
       holidays = holidays.join(", ")
       
-      holidays = "New_years"
+    
       
       holidays = holidays.sub(/_/, " ")
       
@@ -125,7 +125,7 @@ holiday_hash.each do |key, value|
       
   final = holidays.split.map(&:capitalize).join(' ')
   
-  binding.pry
+ 
 
   
  puts season
