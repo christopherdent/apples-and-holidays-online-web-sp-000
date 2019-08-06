@@ -117,8 +117,7 @@ holiday_hash.each do |key, value|
       
       holidays = "New_years"
       
-      holidays = holidays.sub(/_/, " ")
-      holidays = holidays.capitalize!
+      holidays = holidays.sub(/_/, " ").capitalize!
       
         binding.pry
       holidays.prepend('  ')
