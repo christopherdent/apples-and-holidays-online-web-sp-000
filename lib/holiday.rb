@@ -102,9 +102,12 @@ counter = 0
 holiday_hash.each do |key, value|
   
 puts "#{season.to_s.capitalize!}:"
- season = key.to_s
- season.capitalize!
- season = season + ":"
+ 
+ 
+ season = key
+
+ 
+ puts "#{season.to_s.capitalize!}:"
  
   value.each do |holiday, supplies|
     supplies = supplies.join(', ')
