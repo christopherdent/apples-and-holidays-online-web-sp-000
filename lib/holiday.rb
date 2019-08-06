@@ -96,18 +96,17 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 
-all_supplies = []
-counter = 0 
 
-holiday_hash.each do |key, value|
+
+  holiday_hash.each do |key, value|
   
-season = key
+    season = key
 
- 
-season = season.to_s.capitalize!
-season = season + ":"
+    season = season.to_s.capitalize!
+    
+    season = season + ":"
 
- 
+ puts season
 
  
   value.each do |holiday, supplies|
