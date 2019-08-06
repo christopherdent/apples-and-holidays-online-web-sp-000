@@ -110,6 +110,8 @@ holiday_hash.each do |key, value|
     holidays.split.map do |a|
       a.capitalize!
    
+    holidays = holidays 
+   
  binding.pry
       holidays = temp_array.join(", ")
       
