@@ -127,7 +127,7 @@ holiday_hash.each do |key, value|
       final = holidays.split.map(&:capitalize).join(' ').prepend('  ')
       final << ": "
 
-    binding.pry
+   
       puts season!
       puts final + supplies
  
