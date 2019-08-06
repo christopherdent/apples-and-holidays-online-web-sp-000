@@ -109,7 +109,7 @@ holiday_hash.each do |key, value|
     
    
    
-   holidays = holidays.split.capitalize
+   holidays = holidays.split
    #["christmas"] 
    
    binding.pry
