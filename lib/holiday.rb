@@ -130,8 +130,8 @@ final << ": "
   
   binding.pry
   
- puts season.chomp
- puts final.chomp + supplies.chomp
+ p season
+ p final + supplies
  
   
  end 
