@@ -107,16 +107,14 @@ holiday_hash.each do |key, value|
     holidays = holiday.to_s
     #"christmas"
     
-    holidays = holidays.capitalize
+   holidays = holidays.capitalize
     
-   
-   
    holidays = holidays.split
    #["christmas"] 
    
    binding.pry
  
-      holidays = temp_array.join(", ")
+      holidays = holidays.join(", ")
       
       holidays.sub(/_(?=[^\/]*$)/," ")
       holidays.prepend('  ')
