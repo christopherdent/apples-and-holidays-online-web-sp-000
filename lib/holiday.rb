@@ -128,7 +128,7 @@ holiday_hash.each do |key, value|
  
 final << ": "
   
-  binding.pry
+ 
   
  p season
  p final + supplies
