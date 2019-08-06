@@ -109,7 +109,7 @@ holiday_hash.each do |key, value|
     
    
    
-    holidays.split(", ")
+   holidays = holidays.split
    
    binding.pry
  
