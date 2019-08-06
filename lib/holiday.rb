@@ -120,10 +120,10 @@ holiday_hash.each do |key, value|
       holidays = holidays.sub(/_/, " ")
       holidays = holidays.capitalize!
       
-      
+        binding.pry
       holidays.prepend('  ')
       holidays << ": "
-   binding.pry
+ 
    
   
  puts season
