@@ -102,7 +102,9 @@ counter = 0
 holiday_hash.each do |key, value|
   
 puts "#{season.to_s.capitalize!}:"
-
+ season = key.to_s
+ season.capitalize!
+ season = season + ":"
  
   value.each do |holiday, supplies|
     supplies = supplies.join(', ')
@@ -127,7 +129,7 @@ puts "#{season.to_s.capitalize!}:"
       final = holidays.split.map(&:capitalize).join(' ').prepend('  ')
       final << ": "
 
-  
+      puts season
       puts final + supplies
  
     end 
