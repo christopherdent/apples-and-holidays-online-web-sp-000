@@ -107,11 +107,11 @@ holiday_hash.each do |key, value|
     holidays = holiday.to_s
     #"christmas"
     
-   binding.pry
+   
    
     holidays.split
    
-   
+   binding.pry
  
       holidays = temp_array.join(", ")
       
