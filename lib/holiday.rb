@@ -106,7 +106,7 @@ holiday_hash.each do |key, value|
  
     holidays = holiday.to_s
     
-   
+   binding.pry
     holidays.split.map do |a|
       a.capitalize!
    
