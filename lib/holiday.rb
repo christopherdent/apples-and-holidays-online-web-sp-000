@@ -117,7 +117,7 @@ holiday_hash.each do |key, value|
       
     
       
-      holidays = holidays.sub(/_/, " ")
+      holidays = holidays.gsub(/_/, " ")
       
       
       
