@@ -101,7 +101,7 @@ counter = 0
 
 holiday_hash.each do |key, value|
   
-puts "#{season.to_s.capitalize!}:"
+
  
  
  season = key
