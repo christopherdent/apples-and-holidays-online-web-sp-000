@@ -105,8 +105,10 @@ holiday_hash.each do |key, value|
     supplies = supplies.join(', ')
  
     holidays = holiday.to_s
+    #"christmas"
     
    binding.pry
+   
     holidays.split.map do |a|
       a.capitalize!
    
