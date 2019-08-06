@@ -130,8 +130,8 @@ final << ": "
   
  
   
- p season
- p final + supplies
+ puts season
+ puts final + supplies
  
   
  end 
