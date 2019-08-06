@@ -128,6 +128,8 @@ holiday_hash.each do |key, value|
  
 final << ": "
   
+  binding.pry
+  
  puts season.chomp
  puts final.chomp + supplies.chomp
  
