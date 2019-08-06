@@ -103,8 +103,8 @@ holiday_hash.each do |key, value|
   
 season = key
 
- 
- puts season.to_s.capitalize!} + ":"
+ binding.pry
+ puts season.to_s.capitalize! + ":"
  
   value.each do |holiday, supplies|
     supplies = supplies.join(', ')
