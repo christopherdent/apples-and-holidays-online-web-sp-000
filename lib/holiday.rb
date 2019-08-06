@@ -117,7 +117,7 @@ holiday_hash.each do |key, value|
       
       holidays = "New_years"
       
-      holidays.sub(/_/, " ")
+      holidays = holidays.sub(/_/, " ")
       holidays.prepend('  ')
       holidays << ": "
    binding.pry
