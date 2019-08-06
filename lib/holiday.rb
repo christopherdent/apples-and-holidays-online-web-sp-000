@@ -127,7 +127,7 @@ puts "#{season.to_s.capitalize!}:"
       final = holidays.split.map(&:capitalize).join(' ').prepend('  ')
       final << ": "
 
-      puts season
+  
       puts final + supplies
  
     end 
