@@ -105,7 +105,7 @@ season = key
 
  
 season = season.to_s.capitalize!
-
+season = season + ":"
 
  
 binding.pry 
