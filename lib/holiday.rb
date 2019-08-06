@@ -117,28 +117,21 @@ holiday_hash.each do |key, value|
    
    
       holidays = holidays.join(", ")
-      
-    
-      
+  
       holidays = holidays.gsub(/_/, " ")
       
       
       
    
       
-  final = holidays.split.map(&:capitalize).join(' ').prepend('  ')
-  
+      final = holidays.split.map(&:capitalize).join(' ').prepend('  ')
+      final << ": "
+
+    
+      puts season + final + supplies
  
-final << ": "
-  
- 
-  
- puts season
- puts final + supplies
- 
-  
- end 
-end 
+    end 
+  end 
 end 
 
 def all_holidays_with_bbq(holiday_hash)
