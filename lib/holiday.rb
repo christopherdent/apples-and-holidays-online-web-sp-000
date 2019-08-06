@@ -100,9 +100,9 @@ all_supplies = []
 counter = 0 
 
 holiday_hash.each do |key, value|
- season = key.to_s
- season.capitalize!
- season = season + ":"
+  
+puts "#{season.to_s.capitalize!}:"
+
  
   value.each do |holiday, supplies|
     supplies = supplies.join(', ')
@@ -127,7 +127,6 @@ holiday_hash.each do |key, value|
       final = holidays.split.map(&:capitalize).join(' ').prepend('  ')
       final << ": "
 
-   if season == "Winter: "
       puts season
       puts final + supplies
  
