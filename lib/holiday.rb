@@ -112,7 +112,7 @@ holiday_hash.each do |key, value|
    
     holidays = holidays 
    
- binding.pry
+ 
       holidays = temp_array.join(", ")
       
       holidays.sub(/_(?=[^\/]*$)/," ")
